@@ -15,8 +15,6 @@ async function res(text,delay){
 				resolve(text);
 			},delay);
 		})
-	   text.style.margin="10px";
-	   text.style.background_color="blue";
 	   output.innerHTML = text;
 	}
 	catch(err){
